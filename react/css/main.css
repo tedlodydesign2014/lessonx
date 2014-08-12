@@ -1,0 +1,353 @@
+/* CSS Document */
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+#s1{
+  width: 100%;
+  height: 600px;
+  background: url('http://www.yaharapridefarms.org/wp-content/uploads/2013/06/nature-hd-wallpaper-1.jpg') no-repeat;
+  background-size: 100% 125%;
+  background-position: 0px -100px, center;
+}
+
+#s1 header{
+  width: 1170px;
+  height: 75px;
+  margin: 0 auto;
+  padding-top: 3rem;
+ }
+
+#s1 header h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 15%;
+  float: left;
+  color: white;
+  font-weight: 475; 
+  font-size: 36px;
+  text-align: center;
+  padding-top: .25rem;
+}
+
+#s1 header nav{
+  width: 85%;
+  float: right;
+}
+
+#s1 header nav ul{
+  width: 50%;
+  float: right;
+}
+
+#s1 header nav ul li{
+   list-style: none;
+   float: left;
+   width: 25%;
+}
+
+#s1 header nav ul li a{
+     color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#s1 section{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+#s1 section article{
+  width: 50%;
+  height: 450px;
+  float: left;
+}
+
+#s1 section article h2{
+  line-height: 52px;
+  text-align: left;  
+  font-size: 40px;  
+  font-weight: 300;
+  letter-spacing: .3px;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#s1 section article p{
+  width: 50%;
+  margin-top: 25px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+#s1 section article button{
+  display: inline-block;
+  vertical-align: middle; 
+  color: white;
+  padding: 12px 31px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#s1 section article button + button{
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  padding: 13px 32px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff !important;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0;
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px, inset     rgba(255, 255, 255, 0.88) 0px 1px 3px -1px;
+background-color: #4589E3;
+
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+#s1 section article + article div{
+width: 570px;
+height: 333px;
+background-image: url("http://lit-coast-9918.herokuapp.com/react12/images/static-hero.png");
+background-repeat: no-repeat;
+  float: right;
+}
+
+
+
+
+
+
+.a3{
+	width: 44%;
+	height: 400px;
+	float: left;
+	margin-top: 5%;
+}
+
+ .a3 h1{
+	color: white;
+	font-size: 2.25rem;
+}
+
+ .a3 p{
+	color: white;
+	font-size: 1.25rem;
+}
+
+.a4{
+	width: 44%;
+}
+
+
+
+.a4 img{
+	width: 80%;
+	margin left: 10%;
+}
+
+.a3 .b1{
+	color: white;
+	width: 200px;
+	padding: 10px;
+	background-color: grey;
+	font-size: .85rem;
+	border: white solid .125rem;
+	float: left;
+	margin-right: 2%;
+}
+
+.a3 .b2{
+	color: white;
+	width: 150px;
+	padding: 10px;
+	font-size: .85rem;
+	border: white solid .125rem;
+	float: left;
+	background-color: grey;
+}
+
+.a3 .b1 a:link { 
+	color: white; 
+	background-color: grey;
+	text-decoration: none;
+}
+
+.a3 .b1 a:visited { 
+	color: white; 
+	text-decoration: none;
+}
+
+.a3 .b1 a:hover {
+	color: black; 
+	text-decoration: none;
+} 
+
+.a3 .b2 a:link { 
+	color: white; 
+	background-color: grey;
+	text-decoration: none;
+
+}
+.a3 .b2 a:visited { 
+	color: white; 
+	text-decoration: none;
+
+}
+
+.a3 .b2 a:hover {
+	color: black;
+	text-decoration: none;
+} 
+
+.s2{
+	width: 1170px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+
+.s2 .a5{
+	width: 75%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.s2 .a5 h1{
+	color: black;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 0%;
+}
+
+.s2 .a5 p{
+	color: black;
+	font-size: 125%;
+	text-align: center;
+	margin-top: 0%;
+}
+
+.s2 .a6{
+	width: 45%;
+	height: 200px;
+	float: left;
+}
+
+.s2 .a6 .s2h2{
+	color: blue;
+	font-size: 125%;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.s2 .a6 .s2p{
+	color: black;
+	font-size: 100%;
+	text-align: justify;
+	margin-top: 0%;
+}
+
+.s2 .a7{
+	width: 45%;
+	height: 200px;
+	float: right;
+}
+
+.s2 .a7 .s2h2{
+	color: blue;
+	font-size: 125%;
+	text-align: center;
+	margin-bottom: 0%;
+}
+
+.s2 .a7 .s2p{
+	color: black;
+	font-size: 100%;
+	text-align: justify;
+	margin-top: 0%;
+}
+
+.s2 .a7 .mon{
+	width: 80%;
+	height: 100%;
+}
+
+.s2 .a8{
+	width: 45%;
+	height: 200px;
+	float: left;
+}
+
+.s2 .a8 .mon{
+	width: 80%;
+	height: 100%;
+}
+
+.s2 .a8 .s2h2{
+	color: blue;
+	font-size: 125%;
+	text-align: center;
+	margin-bottom: 0%;
+}
+
+.s2 .a8 .s2p{
+	color: black;
+	font-size: 100%;
+	text-align: justify;
+	margin-top: 0%;
+}
+
+.s3{
+	width: 100%;
+	height: 500px;
+	background-color: #6699FF;
+	margin: 0 auto;
+}
+
+.s3 .a9{
+	width: 100%;
+	height:75px;
+	margin: 0 auto;
+}
+
+.s3 .a9 h1{
+	margin-top: 20%;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding-top: 3%;
+}
+
+.s3 .a9 p{
+	color: white;
+	font-size: 125%;
+	text-align: center;
+	margin-top: 1%;
+}
+
+

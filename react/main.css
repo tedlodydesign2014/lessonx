@@ -1,0 +1,44 @@
+/* CSS Document */
+
+.wrap{
+width: 100%;
+height: 960px;
+}
+
+.box{
+width: 100%
+background-color: red;
+}
+
+
+
+.wrap .box .navbar{
+background-color: black;
+}
+
+.wrap .box .navbar ul{
+padding: 1rem;
+list-style: none;
+}
+
+.wrap .box .navbar ul li{
+float: left;
+display: block;
+width: 25%;
+}
+
+.wrap .box .navbar ul li a:link{
+font-size: 1rem;
+color: white;
+}
+
+.wrap .box .navbar ul li a:hover{
+font-size: 1rem;
+color: white;
+}
+
+.wrap .box .navbar ul li a:visted{
+font-size: 1rem;
+color: white;
+}
+

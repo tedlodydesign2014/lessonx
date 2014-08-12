@@ -1,0 +1,16 @@
+@wt1: width; 
+@ht1: height;
+@size1: 400px;
+@size2: 500px;
+@back: background;
+@size3: 100%;
+@imgpath: "http://www.whur.com/wp-content/uploads/2013/11";
+@img: "/big-butts-0005.jpg";
+@no: no-repeat;
+
+div{
+@{wt1}: @size1;
+@{ht1}: @size2;
+@{back}: url("@{imgpath}@{img}") @no;
+@{back}-size: @size3;
+}
